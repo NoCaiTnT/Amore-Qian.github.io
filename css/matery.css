@@ -4,12 +4,32 @@
     .container {
         width: 95%;
     }
+    header .brand-logo .logo-span {
+        font-size: 1rem;
+    }
+    .bg-cover .title {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.85em;
+        margin-bottom: 20px;
+        position: relative;
+    }
 }
 
 /*中等屏幕下(平板类)的样式*/
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
-        width: 90%;
+        width: 90%; 
+    }
+    header .brand-logo .logo-span {
+        font-size: 2rem;
+    }
+    .bg-cover .title {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.85em;
+        margin-bottom: 20px;
+        position: relative;
     }
 }
 
@@ -19,8 +39,24 @@
         width: 90%;
         max-width: 1125px;
     }
+    .post-container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1250px;
+    }
 
-    .head-container {
+    header .brand-logo .logo-span {
+        font-size: 2rem;
+    }
+
+    .bg-cover .title {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.85em;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    /* .head-container {
         position: absolute;
         padding: 0 30px;
         width: 100%;
@@ -30,7 +66,7 @@
         width: 90%;
         margin: 0 auto;
         max-width: 1250px;
-    }
+    } */
 }
 
 body {
@@ -242,6 +278,7 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, purple 0%, blue 100%);
+    opacity: 0.8;
 }
 
 .text-color {
